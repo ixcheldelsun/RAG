@@ -1,0 +1,4 @@
+.env
+indexes/*
+credentials/*
+evaluation/*
