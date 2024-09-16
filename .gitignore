@@ -4,3 +4,4 @@ src/credentials/*
 src/evaluation/*
 src/models/*
 test_model/*
+default.sqlite
