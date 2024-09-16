@@ -6,8 +6,7 @@ authors = ["Ixchel García <ixcheldelsun@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.12,<3.13"
-llama-index = "^0.11.9"
+python = ">=3.11,<3.12"
 llama-index-readers-smart-pdf-loader = "^0.2.0"
 boto3 = "^1.35.19"
 tqdm = "^4.66.5"
@@ -17,14 +16,19 @@ llama-index-storage-index-store-firestore = "^0.3.0"
 llama-index-llms-openai = "^0.2.7"
 firebase-admin = "^6.5.0"
 google-auth = "^2.34.0"
-llama-index-core = "^0.11.9"
 llama-index-embeddings-huggingface = "^0.3.1"
 llama-index-llms-huggingface = "^0.3.3"
 llama-index-vector-stores-pinecone = "^0.2.1"
 pinecone-client = ">=3.0.0"
+python-dotenv = "^1.0.1"
+llama-index-finetuning = "^0.2.0"
+ipykernel = "^6.29.5"
+nbformat = "^5.10.4"
+dill = "^0.3.8"
+trulens = "^1.0.1"
 trulens-providers-openai = "^1.0.1"
 trulens-eval = "^1.0.1"
-python-dotenv = "^1.0.1"
+llama-index = "^0.11.9"
 
 
 [build-system]

@@ -1,4 +1,6 @@
 .env
-indexes/*
-credentials/*
-evaluation/*
+src/indexes/*
+src/credentials/*
+src/evaluation/*
+src/models/*
+test_model/*
