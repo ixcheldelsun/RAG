@@ -1,38 +1,31 @@
 [tool.poetry]
 name = "rag"
 version = "0.1.0"
-description = "Code to build a RAG, iterate on multiple versions and evaluate it using llama-index and TruLens"
+description = ""
 authors = ["Ixchel García <ixcheldelsun@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.11,<3.12"
-llama-index-readers-smart-pdf-loader = "^0.2.0"
-boto3 = "^1.35.19"
-tqdm = "^4.66.5"
-llama-index-storage-docstore-firestore = "^0.2.0"
-llama-index-storage-kvstore-firestore = "^0.3.0"
-llama-index-storage-index-store-firestore = "^0.3.0"
-llama-index-llms-openai = "^0.2.7"
-firebase-admin = "^6.5.0"
-google-auth = "^2.34.0"
-llama-index-embeddings-huggingface = "^0.3.1"
-llama-index-llms-huggingface = "^0.3.3"
-llama-index-vector-stores-pinecone = "^0.2.1"
-pinecone-client = ">=3.0.0"
-python-dotenv = "^1.0.1"
-llama-index-finetuning = "^0.2.0"
-ipykernel = "^6.29.5"
-nbformat = "^5.10.4"
-dill = "^0.3.8"
-trulens = "^1.0.1"
-trulens-providers-openai = "^1.0.1"
-trulens-eval = "^1.0.1"
-llama-index = "^0.11.9"
+python = "3.11.6"
+trulens-apps-llamaindex = "^1.0.3"
+trulens-providers-openai = "^1.0.3"
+trulens-eval = "^1.0.3"
+llmsherpa = "^0.1.4"
+pydantic-settings = "^2.5.2"
+pydantic = "^2.9.2"
+google-auth = "^2.35.0"
+llama-index-embeddings-openai = "^0.2.5"
+llama-index-finetuning = "^0.2.1"
+llama-index-llms-openai = "^0.2.9"
+sentence-transformers = "^3.1.1"
+llama-index = "^0.11.12"
+datasets = "^3.0.0"
+torchvision = "^0.19.1"
+torchaudio = "^2.4.1"
+chardet = "^5.2.0"
+huggingface-hub = ">=0.23.0,<0.24.0"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
-
-
